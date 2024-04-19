@@ -168,20 +168,37 @@ def func(song_test):
 
 st.set_page_config(
     page_icon= "🎵",
-    page_title= "Music Generator"
+    page_title= "Music Generator",
+    initial_sidebar_state="collapsed"
 )
-page_bg_img = f"""
-<style>
-[data-testid="stAppViewContainer"] > .main {{
-background-image: url("https://images.pexels.com/photos/3784566/pexels-photo-3784566.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-background-size: 100%;
-background-position: top left;
-background-repeat: no-repeat;
-background-attachment: local;
-}}
-</style>
-"""
-st.markdown(page_bg_img, unsafe_allow_html=True)
+video_html = """
+		<style>
+
+		#myVideo {
+		  position: fixed;
+		  right: 0;
+		  bottom: 0;
+		  min-width: 100%; 
+		  min-height: 100%;
+		}
+
+		.content {
+		  position: fixed;
+		  bottom: 0;
+		  background: rgba(0, 0, 0, 0.5);
+		  color: #f1f1f1;
+		  width: 80%;
+		  padding: 20px;
+		}
+
+		</style>	
+		<video autoplay muted loop id="myVideo">
+		  <source src="https://cdn.pixabay.com/video/2022/10/12/134486-759714562_large.mp4")>
+		  Your browser does not support HTML5 video.
+		</video>
+        """
+
+st.markdown(video_html, unsafe_allow_html=True)
 
 hide_st_style = """
             <style>

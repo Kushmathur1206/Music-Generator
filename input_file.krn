@@ -1,58 +1,30 @@
-!!!OTL: NUN SCHUERZ DICH GRETLEIN
-!!!ARE: Europa, Mitteleuropa, Deutschland, Norddeutschland
-!!!SCT: E0113A
+!!!OTL: SCHUERZ DICH GRETLE
+!!!ARE: Europa, Mitteleuropa, Deutschland
+!!!SCT: E0113B
 !!!YEM: Copyright 1995, estate of Helmut Schaffrath.
 **kern
 *ICvox
 *Ivox
 *M4/4
-*k[f#]
-*G:
-{4dd
+*k[b-]
+*F:
 =1
-4dd
-4dd
-4b
-4b
+{4cc
+4cc
+4a
+4f
 =2
 2cc
-4a}
+4cc}
 {4a
 =3
-4b
-4b
-4.g
-8g
+4g
+4f
+4f
+4e
 =4
-2a
-4r}
-{4a
-=5
-4b
-4cc
-4dd
-4b
-=6
-2cc
-4b}
-{4b
-=7
-4dd
-4dd
-8cc
-8dd
-4ee
-=8
-2dd
-4b}
-{4dd
-=9
-4.ee
-8dd
-4dd
-4dd
-=10
-2.b}
+2f
+2r}
 ==
 !!!AGN: erzaehlendes Volks - Lied, Schalk -, Schelmen - Lied, betrogene Liebe     Ballade ?
 !!!ONB: ESAC (Essen Associative Code) Database: ERK1

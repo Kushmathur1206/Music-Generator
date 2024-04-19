@@ -24,18 +24,81 @@ def nav_page(page_name, timeout_secs=0):
         </script>
     """ % (page_name, timeout_secs)
     html(nav_script)
+
+
 st.set_page_config(
     page_title="Music Generator",
-    page_icon="👋",
+    page_icon="🎵",
+    initial_sidebar_state="collapsed"
 )
 
-st.title("Music Generator")
-st.sidebar.success("Select a page above.")
 
 
-PrompttoMusic = st.button("Generate music using a description")
-if PrompttoMusic:
-    nav_page("Promtmusicpage")
-Filemusic = st.button("Generate music using a file")
-if Filemusic:
-    nav_page("Promtmusicpage")
+video_html = """
+		<style>
+
+		#myVideo {
+		  position: fixed;
+		  right: 0;
+		  bottom: 0;
+		  min-width: 100%; 
+		  min-height: 100%;
+		}
+
+		.content {
+		  position: fixed;
+		  bottom: 0;
+		  background: rgba(0, 0, 0, 0.5);
+		  color: #f1f1f1;
+		  width: 80%;
+		  padding: 20px;
+		}
+
+		</style>	
+		<video autoplay muted loop id="myVideo">
+		  <source src="https://cdn.pixabay.com/video/2022/10/16/135068-761273397_large.mp4")>
+		  Your browser does not support HTML5 video.
+		</video>
+        """
+
+st.markdown(video_html, unsafe_allow_html=True)
+
+hide_st_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
+
+st1 = st.markdown(
+    """
+<style>
+button {
+    height: auto;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+    font-family: Arial, sans-serif;
+    font-size: 25px !important;
+    font-weight: bold;
+    color: ##ff99ff;
+    
+}
+</style>
+""",
+    unsafe_allow_html=True,
+)
+
+def main():
+    st.title("Music Generator 🎵")
+    PrompttoMusic = st.button("Generate music using a description")
+    if PrompttoMusic:
+        nav_page("Promtmusicpage")
+    Filemusic = st.button("Generate music using a file")
+    if Filemusic:
+        nav_page("Promtmusicpage")
+if __name__ == "__main__":
+    main()
