@@ -99,6 +99,6 @@ def main():
         nav_page("Promtmusicpage")
     Filemusic = st.button("Generate music using a file")
     if Filemusic:
-        nav_page("Promtmusicpage")
+        nav_page("Filemusicpage")
 if __name__ == "__main__":
     main()
