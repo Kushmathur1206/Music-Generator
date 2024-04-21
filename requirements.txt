@@ -20,3 +20,7 @@ librosa
 gradio
 torchmetrics
 encodec
+music21
+pydub
+streamlit
+tensorflow
