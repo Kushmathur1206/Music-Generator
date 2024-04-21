@@ -1,0 +1,1 @@
+{"version": {"cuda": 1201, "hip": null, "torch": "2.2.2+cu121", "python": "3.11.8", "flash": "v2.5.6"}, "env": {"TORCH_CUDA_ARCH_LIST": "5.0+PTX 6.0 6.1 7.0 7.5 8.0+PTX 9.0", "PYTORCH_ROCM_ARCH": null, "XFORMERS_BUILD_TYPE": "Release", "XFORMERS_ENABLE_DEBUG_ASSERTIONS": null, "NVCC_FLAGS": null, "XFORMERS_PACKAGE_FROM": "wheel-v0.0.25.post1"}}

@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: hydra-colorlog
+Version: 1.2.0
+Summary: Enables colorlog for Hydra apps
+Home-page: https://github.com/facebookresearch/hydra/
+Author: Omry Yadan
+Author-email: omry@fb.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: colorlog
+Requires-Dist: hydra-core (>=1.0.0)
+
+# Hydra colorlog
+Adds <a class="external" href="https://github.com/borntyping/python-colorlog" target="_blank">colorlog</a> colored logs for `hydra/job_logging` and `hydra/hydra_logging`.
+
+See [website](https://hydra.cc/docs/plugins/colorlog) for more information
+
+

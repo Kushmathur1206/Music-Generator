@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: xformers
+Version: 0.0.25.post1
+Summary: XFormers: A collection of composable Transformer building blocks.
+Home-page: https://facebookresearch.github.io/xformers/
+Author: Facebook AI Research
+Author-email: oncall+xformers@xmail.facebook.com
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: torch ==2.2.2
+
+XFormers: A collection of composable Transformer building blocks.XFormers aims at being able to reproduce most architectures in the Transformer-family SOTA,defined as compatible and combined building blocks as opposed to monolithic models

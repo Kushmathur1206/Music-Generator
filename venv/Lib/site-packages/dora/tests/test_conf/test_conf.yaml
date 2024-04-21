@@ -1,0 +1,27 @@
+defaults:
+  - _self_
+  - group: plop
+
+epochs: 40
+optim:
+  loss: mse
+num_workers: 10
+
+complex:
+  a: [1, 2, 3]
+  b: {"a": 1, "b": 2}
+
+useless:
+  a: 5
+  b: true
+
+dora:
+  exclude: ["num_workers", "useless.*"]
+  dir: "/test_output_should_fail"
+
+slurm:
+  cpus_per_task: 5
+
+hydra:
+  job:
+    chdir: true
