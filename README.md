@@ -1,4 +1,4 @@
-![image](https://github.com/Kushmathur1206/Music-Generator/assets/99969817/e1dd921f-0269-4cdf-bf08-5a269dbc00f5)Generate music by providing a text prompt or an audio input.
+Generate music by providing a text prompt or an audio input.
 ![Screenshot (1458)](https://github.com/Kushmathur1206/Music-Generator/assets/99969817/447e552d-6951-4d3f-ba82-2bf56956c02d)
 
 
