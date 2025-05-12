@@ -22,12 +22,11 @@ Generating Music with Trained Model(generate.py)
 - Outputs a structured symbolic composition.
 
 
-
 Tech Stack
-  TensorFlow/Keras – LSTM model for sequence prediction.
-  music21 – Processing symbolic music notation.
-  NumPy – Handling sequence encoding and mappings.
-  Streamlit – UI for interacting with symbolic music generation.
+- TensorFlow/Keras – LSTM model for sequence prediction.
+- music21 – Processing symbolic music notation.
+- NumPy – Handling sequence encoding and mappings.
+- Streamlit – UI for interacting with symbolic music generation.
 
 
 Generate music by providing a text prompt or an audio input.
