@@ -1,6 +1,6 @@
 Generate music by providing a text prompt or an audio input.
 ![Screenshot (1458)](https://github.com/Kushmathur1206/Music-Generator/assets/99969817/447e552d-6951-4d3f-ba82-2bf56956c02d)
-FOR MUSIC GENERATION USNING AUDIO INPUT
+FOR MUSIC GENERATION USING AUDIO INPUT
 LSTM-Based Music Model Training
 Dataset Preparation(preprocess.py)
 - Loads symbolic music files (.krn) using music21.
@@ -33,7 +33,7 @@ The training data for the model consists of a collection of piano Kern files obt
 Its task is be able to anticipate the next note in a sequence based on the notes it has already seen. 
 In our model training, we'll utilize three variables to encode a note: pitch, step, and duration.
 
-FOR MUSIC GENERATION USING A PROMPT
+FOR MUSIC GENERATION USING A PROMPT 
 Meta's AudioCraft for prompt-to-Music Generation
 It consists of two core components:
 AudioGen – Sound Effect & Audio Generation
