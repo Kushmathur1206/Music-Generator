@@ -1,3 +1,35 @@
+LSTM-Based Music Model Training
+
+Dataset Preparation(preprocess.py)
+- Loads symbolic music files (.krn) using music21.
+- Filters pieces based on acceptable note durations.
+- Transposes music to a common key (C major / A minor).
+
+Encoding & Transformation(preprocess.py)
+- Converts musical notation into numerical sequences (MIDI-like format).
+- Uses symbols (r for rests, _ for sustained notes).
+- Stores encoded sequences for training.
+
+Training the LSTM Model(train.py)
+- Reads processed sequences and creates input-output pairs for training.
+- Uses one-hot encoding to transform inputs.
+- Trains an LSTM-based sequence model to predict the next musical note.
+- Saves the trained model (model.h5) for later use.
+
+Generating Music with Trained Model(generate.py)
+- Takes a seed sequence as input.
+- Predicts and extends sequences step-by-step.
+- Outputs a structured symbolic composition.
+
+
+
+Tech Stack
+  TensorFlow/Keras – LSTM model for sequence prediction.
+  music21 – Processing symbolic music notation.
+  NumPy – Handling sequence encoding and mappings.
+  Streamlit – UI for interacting with symbolic music generation.
+
+
 Generate music by providing a text prompt or an audio input.
 ![Screenshot (1458)](https://github.com/Kushmathur1206/Music-Generator/assets/99969817/447e552d-6951-4d3f-ba82-2bf56956c02d)
 
