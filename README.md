@@ -31,7 +31,6 @@ Tech Stack
 ![image](https://github.com/Kushmathur1206/Music-Generator/assets/99969817/268319c3-3602-45a3-a3a7-7d85d3cda070)
 The training data for the model consists of a collection of piano Kern files obtained from the Deutschl dataset. 
 Its task is be able to anticipate the next note in a sequence based on the notes it has already seen. 
-In our model training, we'll utilize three variables to encode a note: pitch, step, and duration.
 
 FOR MUSIC GENERATION USING A PROMPT 
 Meta's AudioCraft for prompt-to-Music Generation
