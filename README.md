@@ -1,7 +1,7 @@
 # 🎵 Music Generator
 Generate music by providing a text prompt or an audio input.
 <br><br>
-<img src = "https://github.com/Kushmathur1206/Music-Generator/assets/99969817/447e552d-6951-4d3f-ba82-2bf56956c02d"  alt="Music Generator" width="350"/>
+<img src = "https://github.com/Kushmathur1206/Music-Generator/assets/99969817/447e552d-6951-4d3f-ba82-2bf56956c02d"  alt="Music Generator" width="350"/><img src="https://github.com/user-attachments/assets/15917998-95c1-4648-b290-3c60a489e44e" alt="Music Generator" width="250"/>
 <br><br><br><br>
 This project is an AI-powered music generation system that uses deep learning techniques to create original melodies. By training on musical sequences and learning patterns in note progression, it can autonomously generate short musical clips that are tuneful and unique.
 
@@ -24,7 +24,6 @@ This project is an AI-powered music generation system that uses deep learning te
 - Personalized Music for Customer Experience
 - E-commerce platforms can use AI-generated tunes for personalized thank-you pages, festive greetings, or even hold music during customer service calls.
 
-<img src="https://github.com/user-attachments/assets/15917998-95c1-4648-b290-3c60a489e44e" alt="Music Generator" width="250"/>
 
 FOR MUSIC GENERATION USING AUDIO INPUT
 LSTM-Based Music Model Training
