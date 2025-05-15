@@ -25,7 +25,7 @@ This project is an AI-powered music generation system that uses deep learning te
 - E-commerce platforms can use AI-generated tunes for personalized thank-you pages, festive greetings, or even hold music during customer service calls.
 
 
-<img src="https://github.com/user-attachments/assets/15917998-95c1-4648-b290-3c60a489e44e" alt="Music Generator" width="350"/><img src = "https://github.com/Kushmathur1206/Music-Generator/assets/99969817/1caa4f5f-896f-461c-9f46-ec89f8b2807c"  alt="Music Generator" width="400"/>
+<img src="https://github.com/user-attachments/assets/15917998-95c1-4648-b290-3c60a489e44e" alt="Music Generator" width="400"/><img src = "https://github.com/Kushmathur1206/Music-Generator/assets/99969817/1caa4f5f-896f-461c-9f46-ec89f8b2807c"  alt="Music Generator" width="400"/>
 
 
 FOR MUSIC GENERATION USING AUDIO INPUT
@@ -87,7 +87,7 @@ Tech Stack
 
 We use an open source library called audiocraft for the prompt to audio generation part.
 
-<img src="https://github.com/Kushmathur1206/Music-Generator/assets/99969817/7244161c-309d-453a-ac87-3aa461eb1937" alt="Music Generator" width="400"/><img src = "https://github.com/Kushmathur1206/Music-Generator/assets/99969817/82567ec8-78e6-4a61-9589-9b47eabbbd33"  alt="Music Generator" width="400"/>
+<img src="https://github.com/Kushmathur1206/Music-Generator/assets/99969817/7244161c-309d-453a-ac87-3aa461eb1937" alt="Music Generator" width="450"/><img src = "https://github.com/Kushmathur1206/Music-Generator/assets/99969817/82567ec8-78e6-4a61-9589-9b47eabbbd33"  alt="Music Generator" width="450"/>
 
 Music Generation can be done by desrcribing various factors like mood, theme, genre, era and many more.
 
