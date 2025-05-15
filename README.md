@@ -86,10 +86,11 @@ Tech Stack
 
 
 We use an open source library called audiocraft for the prompt to audio generation part.
-![Screenshot (1460)](https://github.com/Kushmathur1206/Music-Generator/assets/99969817/7244161c-309d-453a-ac87-3aa461eb1937)
+
+<img src="https://github.com/Kushmathur1206/Music-Generator/assets/99969817/7244161c-309d-453a-ac87-3aa461eb1937" alt="Music Generator" width="400"/><img src = "https://github.com/Kushmathur1206/Music-Generator/assets/99969817/82567ec8-78e6-4a61-9589-9b47eabbbd33"  alt="Music Generator" width="400"/>
 
 Music Generation can be done by desrcribing various factors like mood, theme, genre, era and many more.
-![Screenshot (1459)](https://github.com/Kushmathur1206/Music-Generator/assets/99969817/82567ec8-78e6-4a61-9589-9b47eabbbd33)
+
 
 Audiocraft is an advanced python library developed by Meta AI which utilizes various deep-learning approaches. It offers 2 main functionalities music generation and sound effect creation.
 Music Generation can be done by dercribing various factors like mood, theme, genere, era and many more.
