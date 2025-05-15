@@ -2,7 +2,7 @@
 Generate music by providing a text prompt or an audio input.
 <img src = "https://github.com/Kushmathur1206/Music-Generator/assets/99969817/447e552d-6951-4d3f-ba82-2bf56956c02d"  alt="Music Generator" width="350"/>
 
-
+<br>
 
 This project is an AI-powered music generation system that uses deep learning techniques to create original melodies. By training on musical sequences and learning patterns in note progression, it can autonomously generate short musical clips that are tuneful and unique.
 
