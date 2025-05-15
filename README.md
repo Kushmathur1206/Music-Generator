@@ -87,7 +87,7 @@ Tech Stack
 
 We use an open source library called audiocraft for the prompt to audio generation part.
 
-<img src="https://github.com/Kushmathur1206/Music-Generator/assets/99969817/7244161c-309d-453a-ac87-3aa461eb1937" alt="Music Generator" width="450"/><img src = "https://github.com/Kushmathur1206/Music-Generator/assets/99969817/82567ec8-78e6-4a61-9589-9b47eabbbd33"  alt="Music Generator" width="450"/>
+<img src="https://github.com/Kushmathur1206/Music-Generator/assets/99969817/7244161c-309d-453a-ac87-3aa461eb1937" alt="Music Generator" width="500"/><img src = "https://github.com/Kushmathur1206/Music-Generator/assets/99969817/82567ec8-78e6-4a61-9589-9b47eabbbd33"  alt="Music Generator" width="500"/>
 
 Music Generation can be done by desrcribing various factors like mood, theme, genre, era and many more.
 
