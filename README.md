@@ -22,7 +22,7 @@ This project is an AI-powered music generation system that uses deep learning te
 - Personalized Music for Customer Experience
 - E-commerce platforms can use AI-generated tunes for personalized thank-you pages, festive greetings, or even hold music during customer service calls.
 
-![Music Generator](https://github.com/user-attachments/assets/15917998-95c1-4648-b290-3c60a489e44e)
+<img src="https://github.com/user-attachments/assets/15917998-95c1-4648-b290-3c60a489e44e" alt="Music Generator" width="250"/>
 
 FOR MUSIC GENERATION USING AUDIO INPUT
 LSTM-Based Music Model Training
