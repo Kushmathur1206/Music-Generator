@@ -1,7 +1,8 @@
 # 🎵 Music Generator
 Generate music by providing a text prompt or an audio input.
 <br><br>
-<img src = "https://github.com/Kushmathur1206/Music-Generator/assets/99969817/447e552d-6951-4d3f-ba82-2bf56956c02d"  alt="Music Generator" width="500"/>
+<img src = "https://github.com/Kushmathur1206/Music-Generator/assets/99969817/447e552d-6951-4d3f-ba82-2bf56956c02d"  alt="Music Generator" width="500"/><img src = "https://github.com/Kushmathur1206/Music-Generator/assets/99969817/268319c3-3602-45a3-a3a7-7d85d3cda070" width="500"/>
+
 <br><br><br><br>
 This project is an AI-powered music generation system that uses deep learning techniques to create original melodies. By training on musical sequences and learning patterns in note progression, it can autonomously generate short musical clips that are tuneful and unique.
 
@@ -56,7 +57,7 @@ Tech Stack
 - music21 – Processing symbolic music notation.
 - NumPy – Handling sequence encoding and mappings.
 - Streamlit – UI for interacting with symbolic music generation.
-![image](https://github.com/Kushmathur1206/Music-Generator/assets/99969817/268319c3-3602-45a3-a3a7-7d85d3cda070)
+![image]()
 The training data for the model consists of a collection of piano Kern files obtained from the Deutschl dataset. 
 Its task is be able to anticipate the next note in a sequence based on the notes it has already seen. 
 
