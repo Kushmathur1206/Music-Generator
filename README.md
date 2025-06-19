@@ -57,7 +57,6 @@ Tech Stack
 - music21 – Processing symbolic music notation.
 - NumPy – Handling sequence encoding and mappings.
 - Streamlit – UI for interacting with symbolic music generation.
-![image]()
 The training data for the model consists of a collection of piano Kern files obtained from the Deutschl dataset. 
 Its task is be able to anticipate the next note in a sequence based on the notes it has already seen. 
 
